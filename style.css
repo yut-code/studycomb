@@ -1,0 +1,288 @@
+
+.topnav {
+  position: absolute;
+  width: 1440px;
+  height: 123px;
+  left: 1px;
+  top: 0px;
+  background-color: rgba(253, 170, 34, 1);
+  padding-bottom: 40px;
+}
+#studycombtitle {
+  position: absolute;
+  left: 3.19%;
+  right: 74.31%;
+  top: 8.94%;
+  bottom: 9.76%;
+
+  font-family: Amiri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 113px;
+
+  color: #000000;
+}
+.middletitle{
+  position: absolute;
+  left: 36.11%;
+  right: 36.04%;
+  top: 4.07%;
+  bottom: 4.88%;
+
+  font-family: Amiri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 113px;
+
+  color: #FFFFFF;
+}
+
+.hexagon2 {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #feeed4;
+  margin: 86.60px 0;
+  border-left: solid 14px #fdaa22;
+  border-right: solid 14px #fdaa22;
+}
+
+.hexagon2:before,
+.hexagon2:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 29.9340px;
+}
+
+.hexagon2:before {
+  top: -106.0660px;
+  border-top: solid 19.7990px #fdaa22;
+  border-right: solid 19.7990px #fdaa22;
+}
+
+.hexagon2:after {
+  bottom: -106.0660px;
+  border-bottom: solid 19.7990px #fdaa22;
+  border-left: solid 19.7990px #fdaa22;
+}
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #feeed4;
+  margin: 86.60px 0;
+  border-left: solid 14px #ffd795;
+  border-right: solid 14px #ffd795;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 29.9340px;
+}
+
+.hexagon:before {
+  top: -106.0660px;
+  border-top: solid 19.7990px #ffd795;
+  border-right: solid 19.7990px #ffd795;
+}
+
+.hexagon:after {
+  bottom: -106.0660px;
+  border-bottom: solid 19.7990px #ffd795;
+  border-left: solid 19.7990px #ffd795;
+}
+#studyroomcelltitles {
+  position: absolute;
+  z-index: 10; 
+  font-family: Amiri;
+  font-style: normal;
+  font-weight: bold; 
+  font-size: 30px; 
+  line-height: 84px; 
+  text-align: center; 
+  color: #000000; 
+  left: 60px; 
+  top: -50px;
+}
+#studyheader {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+.nestfirst {
+  margin-top: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #0A0A0A;
+}
+.nestsecond{
+  position: absolute;
+  width: 617px;
+  height: 193px;
+  left: 155px;
+  top: 382px;
+  margin-top: 50px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 56px;
+
+color: #4152F3;
+}
+.nestbee {
+  position: absolute;
+  width: 276px;
+  height: 288px;
+  left: 855px;
+  top: 382px;
+}
+.hexagon3 {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #fdaa22;
+  margin: 86.60px 0;
+
+ 
+}
+
+.hexagon3:before,
+.hexagon3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon3:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #fdaa22;
+}
+
+.hexagon3:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #fdaa22;
+}
+#nestcelltitle {
+  position: absolute;
+  width: 260px;
+  height: 146px;
+  left: 15px;
+  top: 20px;
+  z-index: 10;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0A0A0A;
+}
+#nestcelltitle2 {
+  position: absolute;
+  width: 260px;
+  height: 146px;
+  left: 55px;
+  top: 20px;
+  z-index: 10;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0A0A0A;
+}
+#wellbeingintro {
+  position: absolute;
+  width: 1288px;
+  height: 154px;
+  left: 46px;
+  top: 126px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.wellbeingheaders {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.wellbeingrec {
+  position: absolute;
+  
+  height: 70px;
+  width: 1269px;
+
+  background: rgba(65, 82, 243, 0.35);
+  border-radius: 20px;
+}
+.checklist {
+  position: absolute;
+  left: 100px;
+  top: 5px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 56px;
+
+  color: #000000;
+}
+.checkbox {
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+}
+.emoji {
+  position: absolute;
+  width: 100px;
+  top: 920px;
+}
+.wellbeinglink {
+  color: #4152F3;
+}

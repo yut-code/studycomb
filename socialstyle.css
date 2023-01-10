@@ -1,0 +1,66 @@
+* {
+  font-size: 1.1rem;
+    
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fdaa22;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  box-shadow: 0.25rem 0.25rem 0rem #ffd889;
+  position: absolute;
+  left: 120px;
+  top: 200px;
+}
+
+input {
+  margin: 0 0.5rem 0 0.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #fdaa22;
+  color: white;
+}
+
+::placeholder {
+  color: #fdaa22;
+}
+.hexagon {
+  position: absolute;
+  width: 140px; 
+  height: 80.83px;
+  background-color: #feeed4;
+  margin: 40.41px 0;
+  border-left: solid 10px #fdaa22;
+  border-right: solid 10px #fdaa22;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 98.99px;
+  height: 98.99px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 10.5025px;
+}
+
+.hexagon:before {
+  top: -49.4975px;
+  border-top: solid 14.1421px #fdaa22;
+  border-right: solid 14.1421px #fdaa22;
+}
+
+.hexagon:after {
+  bottom: -49.4975px;
+  border-bottom: solid 14.1421px #fdaa22;
+  border-left: solid 14.1421px #fdaa22;
+}
